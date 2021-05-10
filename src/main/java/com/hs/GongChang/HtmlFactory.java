@@ -6,6 +6,7 @@ package com.hs.GongChang;
  * @Description
  */
 public class HtmlFactory extends Factory{
+
     @Override
     public Button createButton() {
         return new ButtonImpl();
