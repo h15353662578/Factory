@@ -14,11 +14,11 @@ public class Demo {
         encoded.writeData(salaryRecords);
         DataSource plain = new FileDataSource("C://Users//Huasheng//Desktop//OutPut.txt");
 
-        System.out.println("-----Input");
+        System.out.println("-----输入");
         System.out.println(salaryRecords);
-        System.out.println("-----Encoded");
+        System.out.println("-----加密");
         System.out.println(plain.readData());
-        System.out.println("-----Decoded");
+        System.out.println("-----解密");
         System.out.println(encoded.readData());
     }
 }
