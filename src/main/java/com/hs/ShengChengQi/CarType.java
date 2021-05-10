@@ -6,5 +6,10 @@ package com.hs.ShengChengQi;
  * @Description
  */
 public enum CarType {
-    CITY_CAR, SPORTS_CAR, SUV
+
+     CITY_CAR,
+
+     SPORTS_CAR,
+
+     SUV
 }
