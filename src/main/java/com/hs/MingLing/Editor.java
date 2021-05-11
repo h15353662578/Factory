@@ -25,10 +25,10 @@ public class Editor {
         textField.setLineWrap(true);
         content.add(textField);
         JPanel buttons = new JPanel(new FlowLayout(FlowLayout.CENTER));
-        JButton ctrlC = new JButton("Ctrl+C");
-        JButton ctrlX = new JButton("Ctrl+X");
-        JButton ctrlV = new JButton("Ctrl+V");
-        JButton ctrlZ = new JButton("Ctrl+Z");
+        JButton ctrlC = new JButton("复制");
+        JButton ctrlX = new JButton("剪切");
+        JButton ctrlV = new JButton("粘贴");
+        JButton ctrlZ = new JButton("回退");
         Editor editor = this;
         ctrlC.addActionListener(new ActionListener() {
             @Override
